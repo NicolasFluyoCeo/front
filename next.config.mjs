@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    distDir: 'out', // Using 'out' for static exports to avoid conflicts
+    distDir: 'out', // or 'public' if you prefer
+    reactStrictMode: true,
+    // Remove 'output: export' if you have dynamic routes
   }
   
-  module.exports = nextConfig;
+  export default nextConfig;
   
