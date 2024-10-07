@@ -2,7 +2,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    // distDir: 'out' (solo si necesitas cambiar el directorio de salida)
+    distDir: 'out' 
   }
   
   export default nextConfig;
