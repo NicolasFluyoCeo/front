@@ -5,5 +5,5 @@ const nextConfig = {
     // Remove 'output: export' if you have dynamic routes
   }
   
-  export default nextConfig;
+  module.exports = nextConfig;
   
