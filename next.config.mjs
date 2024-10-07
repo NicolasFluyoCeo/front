@@ -1,9 +1,8 @@
 // next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: 'out', // o 'public', según prefieras
     reactStrictMode: true,
-    // Si tienes rutas dinámicas, elimina 'output: export'
+    // distDir: 'out' (solo si necesitas cambiar el directorio de salida)
   }
   
   export default nextConfig;
