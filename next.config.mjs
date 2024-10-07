@@ -1,4 +1,4 @@
-// next.config.js
+// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     distDir: 'out', // o 'public', según prefieras
@@ -6,5 +6,5 @@ const nextConfig = {
     // Si tienes rutas dinámicas, elimina 'output: export'
   }
   
-  module.exports = nextConfig;
+  export default nextConfig;
   
